@@ -1,7 +1,3 @@
-def test_password(x):
-    print(x)
-
-
 a = "String 1"
 b = "String 2"
 print ("a =" + a + " and b=" + b)
@@ -16,6 +12,3 @@ job_list = {'James F Mack': 'REDACTED', "Mary A North": 'Commander_A21', 'Timoth
 
 for name, job in job_list.items():
     print(f"{name} is a {job}")
-
-Password = 'SuperSecretAdminPass'
-test_password(Password)
